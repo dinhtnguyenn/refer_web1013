@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.register {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    left: 200px;
+    background-color: #fff;
+}
+
+.register h2 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.register ul {
+    display: flex;
+}
+
+.register ul li {
+    padding: 6px 12px;
+    border: 1px solid #ddd;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.register ul li a:hover {
+    color: #F51212;
+}
+
+.register ul li a {
+    color: black;
+    transition: all 0.3s ease;
+} 
+
+:root {
+    --bg1: #1ea43d;
+    --bg2: #93da93;
+    --text: #beecd2;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, var(--bg1), var(--bg2));
+}
+
+.form-login {
+    width: 700px;
+    height: 600px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.form-login h1 {
+    margin-bottom: 40px;
+}
+
+.form-login button {
+    height: 45px;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    background: linear-gradient(120deg, var(--bg1), var(--bg2), var(--bg1));
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    background-size: 200%;
+    transition: 0.5s
+}
+
+.form-login button:hover {
+    background-position: right;
+}
+
+.form-login a {
+    color: #fff;
+}
+
+.form-login span a {
+    color: #26ade4;
+}
+
+.form-text {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.form-text input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+    padding-left: 12px;
+}
+.tich {
+    float: left;
+    font-size: 19px;
+    margin-bottom: 70px;
+}
+.tich input{
+    font-size: 130px;
+}

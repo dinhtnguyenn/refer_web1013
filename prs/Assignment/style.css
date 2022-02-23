@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+header .phandau{
+    height: 70px;
+    background-color: #FFA300;
+}
+header a img{
+    width: 159px;
+    height: 70px;
+    vertical-align: middle;
+    border-style: none;
+}
+.phandau .slogan {
+    font-style: italic;
+    color: #0066B2;
+    text-shadow: 2px 1px 5px white;
+    margin-top: 10px;
+    float: right;
+    width: 60%;
+}
+nav ul{
+    list-style: none;
+}
+nav .menu{
+    height: 45px;
+    background-color:  #FFB93D;
+}
+nav ul li a{
+    line-height: 30px;
+    margin: 5px;
+    float:left;
+    text-decoration: none;
+    padding: 2px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:bisque;
+    text-shadow: 2px  1px 3px  black;
+    transform: scale(1.1);
+}
+article .banner {
+   text-align: center;
+}
+article .banner a img{
+    width: 100%!important;
+    display: block;
+}
+article .container::after,.row::after{
+        content: "";
+        display: table;
+        clear: both;
+}
+article .container>h1, article .title>h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.column{
+    float: left;
+    width: 22%;
+    margin: 1%;
+}
+.column .img{
+    height: 87px;
+    text-align: center;
+}
+.column .content1{
+    text-align: center;
+    font-size: larger;
+    font-weight: 800;
+    color: red;
+    margin: 2px;
+}
+.column .content{
+    text-align: center;
+    font-weight: 500;
+    font-size: larger;
+    margin: 2px;
+}
+article b{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+}
+article .contact .item{
+    width: 43%;
+    padding: 3%;
+    float: left;
+    font-weight: 500;
+}
+article .contact .contact-icon a{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+article .contact .contact-icon .icon{
+    width: 30%;
+    margin: 0.5%;
+    margin-left: 2.75%;
+    float: left;
+}
+article{
+    background-color: #FFE8C1 ;
+}
+footer{
+    background-color: #FFC96A;
+}
+.footer h2{
+    padding: 10px;
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+}
+
+.container,.content-video{
+    background-color: #FFE8C1 ;
+}
+.container .content-text{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+}
+.row-content{
+    float: left;
+    width: 45%;
+    margin: 2% 0 0 2%;
+    padding: 2%;
+}
+.content-text p{    
+    padding-right: 0%;
+
+}
+.row-content .content-img{
+    text-align: center;
+}
+.content-video .card,.testimonial,.education-program .card{
+    text-align: center;
+    padding: 5px;
+}
+.card h1{
+    margin: 0 10px 10px 10px;
+    font-size: 40px;
+}
+.content-video .card p,.education-program .card p,.education-program .img-education .text-3{
+    text-transform: none;
+    font-style: italic;
+    font-family:serif;
+    font-size: 16px;
+    font-weight: 445;
+    margin: 10px 28% 10px 28%;
+    padding: 5px;
+}
+.content-video .card .text-2,.education-program .card .text-2{
+    text-indent: 30px;
+    line-height: 27px;
+    font-style:normal;
+    font-family: Roboto;
+    text-align:left ;
+    margin:10px 3% 10px 2% ;
+    font-size: 20px;
+}
+.row .left-column{
+    float: left;
+    width: 75% ;
+    padding: 20px 0 20px 20px;
+    margin: 20px 0 20px 20px;
+}
+.row .left-column .card-news{
+    text-align: left;
+    width: 45%;
+    float:left;
+    margin: 2%;
+    line-height: 22px;
+}
+h2>a{
+    float: left;
+    padding: 10px 10px 10px 0px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #192041;
+    line-height: 24px;
+    font-weight: 600;
+}
+.text-news>p{
+    padding: 10px 10px 10px 0px;
+}
+.more>a{
+    padding: 10px 10px 10px 0px;
+    font-weight: 700;
+    color: #f7941d;
+    text-decoration: none;
+}
+.row .right-column{
+    text-align: center;
+    float: left;
+    width: 22%;
+    padding: 20px 0 20px 0;
+    margin: 30px 0 20px 0;
+}
+.row .right-column .card-follow-right{
+    text-align: center;
+    margin-top: 20px;
+    font-variant: small-caps;
+}
+.row .right-column .card-follow-right>h2{
+    margin: 10px;
+}
+.content-main .row{
+    float: left;
+    width: 45%;
+    margin: 0 1% 0 1% ;
+    padding: 1%;
+}
+.content-main .row .title-content{
+    margin: 1%;
+    text-align: left;
+    font-size: larger;
+    padding: 2%;
+}
+.content-main .text-content>img{
+    width: 30%;
+    float: left;
+    margin: 1%;
+    padding: 0 3% 3% 0%;
+}
+.row .text-content{
+    font-weight: 600;
+    line-height: 27px;
+}
+.testimonial{
+    font-size: 30px;
+}
+.hexagon-items-1{
+    margin: 1% 1% 0 1%;
+    padding: 1% 1% 0 1%;
+}
+.hexagon-items-1 .img-items{
+    float: left;
+    width: 30%;
+    text-align: right;
+}
+.text-items{
+    margin: 1% 2% 1% 0;
+    font-weight: 430;
+    padding-right: 3%;
+    line-height: 27px;
+}
+.title-items p{
+    margin: 0.5%;
+}
+.hexagon-items-1 .img-items-2{
+    float: left;
+    width: 20%;
+    text-align: right;
+}
+.text-items-2{
+    margin: 1% 2% 1% 0;
+    font-weight: 430;
+    padding-right: 3%;
+    line-height: 27px;
+}
+.title-items-2 p{
+    margin: 0.5%;
+}
+.education-program .card .specialized li{
+    text-align: left;
+    line-height: 27px;
+    font-style:normal;
+    font-family: Roboto;
+    text-align:left ;
+    margin:10px 3% 10px 6% ;
+    font-size: 18px;
+    font-weight: 700;
+}
+#text{
+    text-indent: 0px;
+}
+.row .left-row{
+    float: left;
+    width: 75% ;
+    padding: 0 0 20px 20px;
+    margin: 0 0 20px 20px;
+    line-height: 1.93;
+}
+article .date{
+    margin: 0 0 1.5em 20px ;
+    padding-left: 20px;
+}
+.left-row .post-content p{
+    margin-bottom: 1.5em;
+}
+.left-row .post-content ul li{
+    margin-left: 30px;
+}
+figcaption{
+    text-align: center;
+}

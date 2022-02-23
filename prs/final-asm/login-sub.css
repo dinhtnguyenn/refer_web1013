@@ -1,0 +1,114 @@
+.login-sub{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login-sub-box{
+    display: flex;
+    width: 1200px;
+    height: 550px;
+    box-shadow:5px 5px 5px rgb(79 74 74);
+    background-image: url('images/intro.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    flex-wrap: wrap;
+}
+.login-sub-box-1{
+
+    margin-left: 800px;
+    height: 460px;
+    background-color: #2A3740;
+    opacity: .99;
+    margin-top: 40px;
+    margin-right: 25px;
+    box-shadow:  0 3px 10px 0 rgba(17, 17, 17, 0.4);
+    border-radius: 4px;
+}
+.hinhlogo{
+    float: right;
+}
+.list-login-sub{
+    padding: 2px 30px;
+    list-style: none;
+}
+.title-list h5{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: rgb(219, 219, 55);
+    font-size: 26px;
+    font-weight: bold;
+}
+.taoTK input{
+    width: 80%;
+    padding: 8px;
+    font-size: 14px;
+    margin:  10px 0;
+    outline-color: rgb(219, 219, 55);
+}
+.sub-mk .sub-mk-1{
+    width: 70%;
+    padding: 8px;
+    font-size: 14px;
+    margin:  10px 0;
+    outline-color: rgb(219, 219, 55);
+}
+.sub-mk-1 .sub-mk-1{
+    width: 70%;
+    padding: 8px;
+    font-size: 14px;
+    margin:  10px 0;
+    outline-color: rgb(219, 219, 55);
+}
+.sub-ns input{
+    outline-color: rgb(219, 219, 55);
+}
+.conten-sub{
+    text-align: center;
+    padding: 0 1.5625rem;
+    margin-right: .3125rem;
+    margin-bottom: 20px;
+}
+.conten-sub span{
+    font-size: 10px;
+    color: white;
+}
+.sub-button-dk{
+    padding-left: 40px;
+
+}
+.sub-button-dk input{
+    width: 86%;
+    padding: 8px;
+    font-size: 16px;
+    margin:  16px 0;
+    color: rgb(250, 250, 16);
+    background-color: rgb(197, 0, 35);
+    opacity: 0.9;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.sub-button-dk input:hover{
+    background-color: rgb(231, 10, 51);
+    color: rgb(245, 245, 0);
+    transition:.5s;
+}
+.conten-dn{
+    float: right;
+    color: white;
+    font-size: 12px;
+}
+.conten-dn a{
+    word-spacing: -2px;
+    color: rgb(219, 219, 55);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+.conten-dn a:hover{
+    color: rgb(245, 245, 0);
+}

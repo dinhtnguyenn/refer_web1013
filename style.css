@@ -17,6 +17,7 @@ body {
     background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+    cursor: url('./logo.png'), auto;
 }
 
 @keyframes gradient {
@@ -30,7 +31,6 @@ body {
 		background-position: 0% 50%;
 	}
 }
-
 
 .card-list {
     width                : 70%;
@@ -59,6 +59,7 @@ body {
 .card:hover {
     transform : scale(1.05);
     box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.2);
+    cursor: url('./logo.png'), auto;
 }
 
 .card-image {
@@ -119,4 +120,8 @@ body {
     text-transform: uppercase;
     margin-top    : 2px;
     font-size     : 0.8em;
+}
+
+.review{
+    cursor: url('./go.png'), auto;
 }

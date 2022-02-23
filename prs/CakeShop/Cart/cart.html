@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="../index.html">
+              <span>CAKESHOP</span>
+            </a>
+          </div>
+          <div class="menu">
+            <input placeholder="Search..." list="occupation" type="text" /><img
+              src="../HinhAnh/search.png"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            <datalist id="occupation">
+              <option value="Dessert"></option>
+              <option value="cake"></option>
+              <option value="cake for children"></option>
+              <option value="fresh strawberry cake"></option>
+              <option value="chocolate eclair"></option>
+            </datalist>
+            <a href="../Login/index.html"><li>Logout</li></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body">
+      <div class="circle"></div>
+      <div style="background-color: white" class="circle2"></div>
+      <div style="display: flex">
+        <div class="sub_nav">
+            <div style="padding: 0 20px">
+              <div class="avatar">
+                <img
+                  src="../HinhAnh/profile.png"
+                  width="130px"
+                  height="130px"
+                  alt=""
+                />
+                <p>Khanhs Nguyen</p>
+              </div>
+              <ul>
+                <a href="../index.html">
+                  <li><i class="fa fa-home"></i>Home</li></a
+                >
+                <a href="#"
+                  ><li><i class="fa fa-cart-plus"></i>My cart</li></a
+                >
+                <a href="#">
+                  <li><i class="fa fa-heart"></i>Favorite</li></a
+                >
+                <a href="#">
+                  <li><i class="fa fa-gear"></i>Settings</li></a
+                >
+              </ul>
+            </div>
+          </div>
+          <div class="center">
+              <div class="container">
+                <h2 style="margin-bottom: 20px">Shopping cart</h2>
+                <div class="overflow">
+                    <div class="cart_item">
+                        <div><img src="../HinhAnh/birthday.jpg" width="75px" alt=""></div>
+                        <div><span>Fresh Red Velvet Cake</span></div>
+                        <div><span>x1</span></div>
+                        <div><span>$12</span></div>
+                        <div><img id="remove" src="../HinhAnh/remove.png" width="25px" height="25px" alt=""></div>
+                    </div>
+                    <div class="cart_item">
+                        <div><img src="../HinhAnh/td.jpg" width="65px" alt=""></div>
+                        <div><span>Fresh Purple Velvet Cake</span></div>
+                        <div><span>x1</span></div>
+                        <div><span>$12</span></div>
+                        <div><img id="remove" src="../HinhAnh/remove.png" width="25px" height="25px" alt=""></div>
+                    </div>
+                    <div class="cart_item">
+                        <div><img src="../HinhAnh/Wedding Cake.jpg" width="55px" alt=""></div>
+                        <div><span>Fresh Wedding Cake</span></div>
+                        <div><span>x2</span></div>
+                        <div><span>$24</span></div>
+                        <div><img id="remove" src="../HinhAnh/remove.png" width="25px" height="25px" alt=""></div>
+                    </div>
+                    <div class="cart_item">
+                        <div><img src="../HinhAnh/men.jpg" width="55px" height="60px" alt=""></div>
+                        <div><span>Fresh Milk Cake</span></div>
+                        <div><span>x1</span></div>
+                        <div><span>$12</span></div>
+                        <div><img id="remove" src="../HinhAnh/remove.png" width="25px" height="25px" alt=""></div>
+                    </div>
+                    <div class="cart_item">
+                        <div><img src="../HinhAnh/pepsy.png" width="75px" alt=""></div>
+                        <div><span>Pepsi</span></div>
+                        <div><span>x3</span></div>
+                        <div><span>$6</span></div>
+                        <div><img id="remove" src="../HinhAnh/remove.png" width="25px" height="25px" alt=""></div>
+                    </div>
+                </div>
+                
+              </div>
+          </div>
+          <div class="right">
+              <div class="discount">
+                  <div class="text_discount">
+                      <h2>Total: <strong>$66</strong></h2>
+                      <button>Checkout</button>
+                  </div>
+                  <div class="text_discount">
+                    <h2>Discount Code</h2>
+                    <input placeholder="Code..." type="text">
+                    <button>Apply</button>
+                  </div>
+                  <div class="text_discount">
+                    <h2 style="font-size: 15px;">Choose payment method</h2>
+                  </div>
+                  <div class="text_discount">
+                    <input type="radio" name="payment" checked><img src="https://th.bing.com/th/id/OIP.bIWC-_vnjJx1UKedkvxsVAHaEu?pid=ImgDet&rs=1" width="50px" alt=""><span>Visa</span><br>
+                    <input type="radio" name="payment"><img src="https://th.bing.com/th/id/OIP.MPTCf4W6NuRc-ysVPNSZ3wHaHa?pid=ImgDet&rs=1" width="50px" alt=""><span>Momo</span><br>
+                    <input type="radio" name="payment"><img src="https://th.bing.com/th/id/R.04cefae73527266f7d95c3b6e86b1add?rik=YqG0kSfP%2byAcrg&pid=ImgRaw&r=0" alt="" width="50px"><span>Paypal</span>
+                  </div>
+
+              </div>
+              
+ 
+          </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="logo_footer">
+          <span>CAKESHOP</span>
+        </div>
+        <hr />
+        <div class="text_footer">
+          <ul style="display: flex">
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><i class="fa fa-calendar"></i>11:00 Am - 2:00 Pm</li>
+            <li><i class="fa fa-compass"></i>555 quan 13 TP HCM</li>
+            <li><i class="fa fa-phone"></i>0123456789</li>
+          </ul>
+          <div class="social">
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
